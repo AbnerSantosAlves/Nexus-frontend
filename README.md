@@ -1,121 +1,103 @@
-# SATEP Frontend
+<h1 align="center">🛡 Nexus</h1>
 
-## Descrição
+<p align="center">
+<strong>Sistema de Registro e Gerenciamento de Detidos</strong>
+</p>
 
-O SATEP (Sistema de Agendamento de Transporte para Pacientes) é um sistema desenvolvido com o objetivo de otimizar o processo de solicitação, agendamento e confirmação do transporte de pacientes oferecido pela prefeitura.
+<p align="center">
+Nexus é um sistema desenvolvido para auxiliar no registro e organização de informações
+relacionadas a detenções, permitindo o cadastro e gerenciamento estruturado de dados.
+</p>
 
-Este repositório contém a aplicação frontend do sistema, responsável pela interface de interação com os usuários. A aplicação permite que pacientes realizem solicitações de transporte, acompanhem seus agendamentos e recebam confirmações de viagem de forma digital.
+<hr>
 
-O projeto foi desenvolvido como parte de um Trabalho de Conclusão de Curso (TCC), buscando propor uma solução tecnológica para substituir processos manuais atualmente utilizados na gestão desse serviço público.
+<h2>📋 Sobre o Projeto</h2>
 
-## Objetivo
+<p>
+O <strong>Nexus</strong> foi desenvolvido com o objetivo de facilitar o registro e a
+consulta de informações relacionadas a pessoas detidas, centralizando os dados
+em um sistema digital organizado.
+</p>
 
-O objetivo do sistema é melhorar a organização e eficiência do agendamento de transporte para consultas médicas, reduzindo erros operacionais, atrasos e dificuldades enfrentadas por pacientes no processo atual.
+<p>
+O sistema permite cadastrar informações importantes como identificação do indivíduo,
+artigo relacionado à ocorrência e outros dados relevantes para registro.
+</p>
 
-A plataforma visa:
+<hr>
 
-- Facilitar o cadastro e a solicitação de transporte por pacientes
-- Permitir a visualização e gerenciamento de agendamentos
-- Melhorar a comunicação entre pacientes e a administração do serviço
-- Digitalizar processos atualmente realizados de forma manual
+<h2>⚙️ Funcionalidades</h2>
 
-## Tecnologias Utilizadas
+<ul>
+<li>Cadastro de detidos</li>
+<li>Registro de informações da ocorrência</li>
+<li>Organização estruturada de dados</li>
+<li>Armazenamento em banco de dados</li>
+</ul>
 
-A aplicação foi desenvolvida utilizando tecnologias modernas de desenvolvimento web.
+<hr>
 
-Principais tecnologias:
+<h2>🛠 Tecnologias Utilizadas</h2>
 
-- React
-- JavaScript
-- HTML
-- CSS
-- Node Package Manager (npm)
+<ul>
+<li><strong>Python</strong></li>
+<li><strong>Banco de Dados</strong></li>
+<li><strong>Interface gráfica</strong></li>
+</ul>
 
-Essas tecnologias permitem a construção de interfaces modernas, responsivas e escaláveis.
+<hr>
 
-## Estrutura do Projeto
+<h2>📂 Estrutura do Projeto</h2>
 
-A estrutura do projeto segue a organização padrão de aplicações React.
-
-```
-satep-frontend
+<pre>
+botPuerto/
 │
-├── public
-│   └── arquivos públicos da aplicação
+├── database/       # Estrutura do banco de dados
+├── models/         # Modelos de dados
+├── services/       # Lógica da aplicação
 │
-├── src
-│   ├── components
-│   ├── pages
-│   ├── services
-│   └── assets
-│
-├── package.json
+├── main.py         # Arquivo principal
 └── README.md
-```
+</pre>
 
-- **public**: contém arquivos estáticos utilizados pela aplicação  
-- **src**: contém todo o código-fonte da interface  
-- **components**: componentes reutilizáveis da interface  
-- **pages**: páginas principais da aplicação  
-- **services**: comunicação com APIs ou serviços externos  
-- **assets**: imagens, estilos e outros recursos  
+<hr>
 
-## Instalação
+<h2>🚀 Como executar</h2>
 
-Para executar o projeto localmente, é necessário possuir o Node.js instalado.
+<h3>1️⃣ Clonar o repositório</h3>
 
-Clone o repositório:
+<pre>
+git clone https://github.com/AbnerSantosAlves/botPuerto.git
+</pre>
 
-```
-git clone https://github.com/AbnerSantosAlves/satep-frontend.git
-```
+<h3>2️⃣ Entrar na pasta do projeto</h3>
 
-Acesse a pasta do projeto:
+<pre>
+cd botPuerto
+</pre>
 
-```
-cd satep-frontend
-```
+<h3>3️⃣ Instalar dependências</h3>
 
-Instale as dependências:
+<pre>
+pip install -r requirements.txt
+</pre>
 
-```
-npm install
-```
+<h3>4️⃣ Executar o sistema</h3>
 
-Execute a aplicação:
+<pre>
+python main.py
+</pre>
 
-```
-npm run dev
-```
+<hr>
 
-Após iniciar, a aplicação estará disponível em:
+<h2>👨‍💻 Autor</h2>
 
-```
-http://localhost:5173
-```
+<p>
+<strong>Abner Santos Alves</strong>
+</p>
 
-## Funcionalidades
-
-O sistema possui funcionalidades voltadas para a gestão de solicitações de transporte para pacientes.
-
-Entre elas:
-
-- Interface para solicitação de transporte
-- Visualização de agendamentos
-- Confirmação de viagens
-- Interface responsiva para diferentes dispositivos
-- Comunicação com serviços de backend
-
-## Contexto do Projeto
-
-O projeto foi idealizado a partir da observação das dificuldades enfrentadas por pacientes que dependem do transporte oferecido pela prefeitura para realizar consultas médicas em outras cidades.
-
-Atualmente, muitos desses processos são realizados manualmente, o que pode gerar falhas de comunicação, atrasos e dificuldades no acompanhamento das solicitações.
-
-A proposta do SATEP é oferecer uma solução digital para tornar esse processo mais eficiente, acessível e organizado.
-
-## Autor
-
-Abner Santos Alves
-
-Estudante de Análise e Desenvolvimento de Sistemas.
+<p>
+<a href="https://github.com/AbnerSantosAlves">
+GitHub - AbnerSantosAlves
+</a>
+</p>
